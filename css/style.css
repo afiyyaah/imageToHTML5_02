@@ -526,8 +526,9 @@
 .footer>.wrapper>.right{
     min-height: 100px;
     width: 37%;
-    float:left;
+    float:right;
     padding-top: 16px;
+    padding-right: 30px;
     
 }
 .footer>.wrapper>.right>.oceanlogo img{
