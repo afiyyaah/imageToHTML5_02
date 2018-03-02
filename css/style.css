@@ -541,7 +541,7 @@
     width: 45%;
     height: 110px;
 }
-.footer p{
+.footer>.wrapper>.left>.top p{
     color: white;
     float: left;
 }
