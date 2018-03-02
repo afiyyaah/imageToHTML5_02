@@ -480,6 +480,10 @@
     display: block;
     padding-left: 50px;
     padding-top: 17px;
+    transition:0.4s;
+}
+.android_app>.title img:hover{
+    filter:invert(30%);
 }
 .footer{
     min-height: 140px;
