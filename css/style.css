@@ -481,6 +481,7 @@
 .footer{
     min-height: 175px;
     background-color: #121B2C;
+    width:100%;
 }
 .footer>.wrapper>.left{
     min-height: 100px;
