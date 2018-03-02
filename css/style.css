@@ -478,6 +478,9 @@
     padding-left: 50px;
     padding-top: 17px;
 }
+.android_app>.title img:hover{
+    filter:invert(20%);
+}
 .footer{
     min-height: 140px;
     background-color: #121B2C;
