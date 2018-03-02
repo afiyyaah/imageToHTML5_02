@@ -528,10 +528,10 @@
     width: 39%;
     float:right;
 }
-.footer>.right>.oceanlogo img{
-    float: right;
-    width: 30%;
-    height: 30px;
+.footer>.wrapper>.right>.symbianlogo img{
+    float: left;
+    width: 52%;
+    height: 114px;
 }
 .footer p{
     color: white;
