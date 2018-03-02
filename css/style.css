@@ -479,9 +479,8 @@
     padding-top: 17px;
 }
 .footer{
-    min-height: 175px;
+    min-height: 140px;
     background-color: #121B2C;
-    width:100%;
 }
 .footer>.wrapper>.left{
     min-height: 100px;
@@ -528,7 +527,7 @@
     min-height: 100px;
     width: 37%;
     float:right;
-    padding-top: 16px;
+    padding-top: 18px;
     padding-right: 30px;
     
 }
