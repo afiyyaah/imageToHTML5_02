@@ -1,555 +1,1104 @@
 *{
+
     margin:0;
+
     padding:0;
+
 }
+
 .header{
+
     background-color:#121B2A;
+
     height:80px;
+
 }
+
 .wrapper {
+
     width:80%;
+
     margin:0 auto;
+
 }
+
+
 
 .logo {
+
     width:12%;
+
     float:left;
+
     min-height:80px;
+
 }
+
+
 
 .header_right {
-    width:65%;
+
+    width:80%;
+
     float:right;
+
     height:80px;
+
     
+
 }
+
+
 
 .header_top_right {
+
     min-height:40px;
+
     float: right;
+
 }
+
 .header_top_right ul{
+
     list-style: none;
+
 }
+
 .header_top_right ul li{
+
     float:left;
+
     padding:5px 12px;
+
     text-align: center;
+
     background-color: white;
+
     border-right:1px solid lightgray;
+
     filter: invert(0%);
+
     transition: 0.4s;
+
 }
+
 .header_top_right ul li a{
-    
+
     color: black;
+
     font-family: 'Roboto', sans-serif;
+
     text-decoration: none;
+
     font-size: 15px;
+
 }
+
 .header_top_right ul li:hover{
+
     background-color: #FF8646;
+
     filter: invert(100%);
+
 }
+
 }
+
 .header_top_right ul:last-child li{
+
     border-right:none;
+
     float: left;
+
    
+
 }
+
 .header_top_right ul li a img{
+
     width:15px;
+
     height:15px;
+
 }
+
+
 
 .header_bottom_right {
+
     min-height:50px;
+
     float: right;
+
     width:100%;
+
 }
+
 .header_bottom_right ul{
+
     list-style: none;
+
     float:right;
+
     margin-top: 6px;
-    width:100%;
     padding-bottom: 13px;
+
 }
+
 .header_bottom_right ul li{
+
     float:left;
+
     padding-left: 27px;
+
     padding-right: 27px;
+
     
+
 }
+
 .header_bottom_right ul li:last-child{
+
     padding-right: 0;
+
     padding-left: 27;
+
     
+
  
+
 }
+
 .header_bottom_right ul li a{
+
     text-decoration: none;
+
     font-family: 'Mukta Malar', sans-serif;
+
     color: white;
+
     text-align: center;
+
     font-size: 17px;
+
     transition: 0.3s;
+
 }
+
 .header_bottom_right ul li:hover a{
+
     color:#0F76B3;
+
 }
+
 .img_slider {
+
     min-height: 200px;
+
     overflow: hidden;
+
 }
+
+
 
 .image{
+
     background-image: url("iot.jpg");
+
     background-size: 100%;
+
     min-height: 500px;
-}
-.left_arrow {
-    float:left;
-    width:10%;
-    height:inherit;
-    filter:invert(0%);
-    transition: 0.4s;
-}
-.left_arrow:hover{
-    filter:invert(100%);
-}
-.left_arrow a img{
-    width:100%;
-    height:180px;
-    float: right;
-    margin: 160px 0;
+
 }
 
-.right_arrow {
-    float:right;
+.left_arrow {
+
+    float:left;
+
     width:10%;
-    height: inherit;
+
+    height:inherit;
+
     filter:invert(0%);
+
     transition: 0.4s;
+
 }
-.right_arrow:hover{
+
+.left_arrow:hover{
+
     filter:invert(100%);
+
 }
-.right_arrow a img{
+
+.left_arrow a img{
+
     width:100%;
+
     height:180px;
-    float: left;
+
+    float: right;
+
     margin: 160px 0;
+
 }
-.slider_txt{
-    width: 50%;
-    float:left;
-    padding:20px 20px;
+
+
+
+.right_arrow {
+
+    float:right;
+
+    width:10%;
+
+    height: inherit;
+
+    filter:invert(0%);
+
+    transition: 0.4s;
+
 }
-.slider_txt h3{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 36px;
-    color: white;
-    padding-top: 140px;
+
+.right_arrow:hover{
+
+    filter:invert(100%);
+
 }
-.slider_txt h1{
-    font-family: 'Montserrat',sans-serif;
-    font-size: 40px;
-    color: yellow;
-}.slider_txt p{
-    font-family:sans-serif;
-    font-size: 20px;
-    color: white;
-}
-.slider_txt button{
-    color: #6C6C6C;
-    background-color: #F6F4F3;
-    padding:10px 30px;
-    border-radius: 8px;
-    margin-top: 26px;
-    transition: 0.3s;
-}
-.slider_txt button:hover{
-    filter:invert(20%);
-}
-.slider_txt button p{
-    color: #6C6C6C;
+
+.right_arrow a img{
+
+    width:100%;
+
+    height:180px;
+
     float: left;
-    font-size: 20px;
-    padding:10px 15px;
-    padding-left: 30px;
+
+    margin: 160px 0;
+
 }
-.slider_txt img{
+
+.slider_txt{
+
+    width: 50%;
+
     float:left;
+
+    padding:20px 20px;
+
+}
+
+.slider_txt h3{
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 36px;
+
+    color: white;
+
+    padding-top: 140px;
+
+}
+
+.slider_txt h1{
+
+    font-family: 'Montserrat',sans-serif;
+
+    font-size: 40px;
+
+    color: yellow;
+
+}.slider_txt p{
+
+    font-family:sans-serif;
+
+    font-size: 20px;
+
+    color: white;
+
+}
+
+.slider_txt button{
+
+    color: #6C6C6C;
+
+    background-color: #F6F4F3;
+
+    padding:10px 30px;
+
+    border-radius: 8px;
+
+    margin-top: 26px;
+
+    transition: 0.3s;
+
+}
+
+.slider_txt button:hover{
+
+    filter:invert(20%);
+
+}
+
+.slider_txt button p{
+
+    color: #6C6C6C;
+
+    float: left;
+
+    font-size: 20px;
+
+    padding:10px 15px;
+
+    padding-left: 30px;
+
+}
+
+.slider_txt img{
+
+    float:left;
+
     width:30px;
+
     height:30px;
+
     padding: 5px 5px;
+
 }
+
 .txt_slider {
+
     overflow: hidden;
+
     min-height: 340px;
+
     background-color: #121B2C;
+
 }
+
+
+
 
 
 .first_text {
+
     width:30%;
+
     height: 360px;
+
     float: left;
+
     border-right: 1px solid #1B2C46;
+
 }
+
+
 
 .first_txt_header {
+
     min-height: 50px;
+
     padding-top: 60px;
+
 }
+
+
 
 .first_header_image {
+
     width:20%;
+
     height:70px;
+
     float: left;
+
 }
+
 .first_header_image img{
+
     width:60px;
+
     height: 55px;
+
     padding-top:4px;
+
 }
+
 .first_header_title {
+
     width:60%;
+
     float:left;
+
     padding-left: 5%;
+
     padding-right: 0;
+
 }
+
 .first_header_title h2{
+
     font-family: 'Montserrat', sans-serif;
+
     color: white;
+
     font-size: 23px;
+
 }
+
 .first_header_title h1{
+
     font-family: 'Montserrat', sans-serif;
+
     color: #0B6AA6;
+
     font-size: 25px;
+
 }
+
+
 
 .first_txt_content {
+
     padding-top: 40px;
+
     min-height: 300px;
+
     width:90%;
+
     font-family: 'Montserrat', sans-serif;
+
     padding-right: 10px;
+
     color: white;
+
 }
+
+
 
 .second_text {
+
     width:33%;
+
     height: 360px;
+
     float: left;
+
     border-right:1px solid #1B2C46;
+
     padding-left: 10px;
+
 }
+
+
 
 .second_txt_header {
+
     min-height: 50px;
+
     padding-top: 55px;
+
 }
+
+
 
 .second_header_image {
+
     width:20%;
+
     height:70px;
+
     float: left;
+
 }
+
 .second_header_image img{
+
     width:63px;
+
     height:80px;
+
 }
+
 .second_header_title {
+
     width:70%;
+
     float:left;
+
     padding-left: 5%;
+
     padding-right: 0;
+
 }
+
 .second_header_title h2{
+
     font-family: 'Montserrat', sans-serif;
+
     color: white;
+
     font-size: 23px;
+
 }
+
 .second_header_title h1{
+
     font-family: 'Montserrat', sans-serif;
+
     color: #0B6AA6;
+
     font-size: 26px;
+
 }
+
+
 
 .second_txt_content {
+
     padding-top: 45px;
+
     min-height: 300px;
+
     font-family: 'Montserrat', sans-serif;
+
     padding-right: 30px;
+
     color: white;
+
     padding-left: 15px;
+
 }
+
 .third_text {
+
     width:33%;
+
     height: 360px;
+
     float: right;
+
     
+
 }
+
+
 
 .third_txt_header {
+
     min-height: 50px;
+
     padding-top: 60px;
+
 }
+
+
 
 .third_header_image {
+
     width:20%;
+
     height:70px;
+
     float: left;
+
 }
+
 .third_header_image img{
+
     width:60px;
+
     height: 70px;
+
 }
+
 .third_header_title {
+
     width:70%;
+
     float:left;
+
     padding-left: 5%;
+
     padding-right: 0;
+
 }
+
 .third_header_title h2{
+
     font-family: 'Montserrat', sans-serif;
+
     color: white;
+
     font-size: 27px;
+
     float: left;
+
     padding-top: 20px;
+
 }
+
 .third_header_title h1{
+
     font-family: 'Montserrat', sans-serif;
+
     color: #0B6AA6;
+
     font-size: 27px;
+
     float: left;
+
     padding-left: 7px;
+
     padding-top: 20px;
+
 }
+
+
 
 .third_txt_content {
+
     padding-top: 40px;
+
     min-height: 30px;
+
     font-family: 'Montserrat', sans-serif;
+
     
+
     color: white;
+
     padding-left: 15px;
-}
-.ad{
-    min-height: 350px;
-    background-color: #040811;
-    
-}
-.details_panel{
-    min-height: 200px;
-    padding-top: 70px;
-    width:27%;
-    float:left;
-}
-.details_panel h2{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 27px;
-    float: left;
-    padding-right: 10px;
-}
-.details_panel h1{
-    font-family: 'Roboto', sans-serif;
-    color: #0075B9;
-    font-size: 27px;
-    float: left;
-    padding-right: 20px;
-    margin-bottom: 30px;
-}
-.details_panel p {
-    font-family: 'Montserrat', sans-serif;
-    width:70%;
-    color: white;
-    font-size: 15px;
-    
-}
-.feedback{
-    min-height:200px;
-    margin-top: 50px;
-    width: 33%;
-    float:left;
-}
-.speech_bubble{
-    float:left;
-    width: 100%;
-    min-height: 230px;
-    background-image: url(bubble.png);
-    background-position:center;
-    background-size: 400px;
-    margin-left: 10px;
-    padding-top: 0px;
-    padding-left: 25px;
-}
-.num{
-    float:right;
-}
-.speech_bubble h2{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 23px;
-    float: left;
-    padding-right: 10px;
-    padding-top: 35px;
-}
-.speech_bubble h1{
-    font-family: 'Roboto', sans-serif;
-    color: #0075B9;
-    font-size: 23px;
-    float: left;
-    padding-top: 35px;
-}
-.speech_bubble p{
-    font-family: 'Montserrat', sans-serif;
-    width:90%;
-    color: white;
-    font-size: 14px;
-    float:left;
-    padding-top: 20px;
-}
-.feedbackby h1{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-weight: bold;
-    font-size: 15px;
-    padding-left: 40px;
-}
-.feedbackby h2{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-weight: 400;
-    font-size: 14px;
-    padding-left: 40px;
-}
-.android_app{
-    min-height: 130px;
-    width:30%;
-    float:left;
-    margin-top:50px;
-    margin-left: 60px;
-}
-.android_app>.image{
-    background-image: none;
-    float: left;
-    width:30%;
-    min-height:130px;
-}
-.android_app>.title{
-    width: 69%;
-    float: left;
-}
-.android_app>.title h3{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 20px;
-    font-weight: 400;
-    float:left;
-    padding-left: 50px;
-    padding-top: 15px;
-}
-.android_app>.title{
-   min-height: 130px;
-    width:69%;
-    float: left;
-}
-.android_app>.title h1{
-    font-family: 'Montserrat', sans-serif;
-    color: #0B6AA6;
-    font-size: 25px;
-    font-weight: 700;
-    float:left;
-    padding-left: 50px;
-    
-}
-.android_app>.title>.img{
-    width: 100%;
-    float: left;
-    
-}
-.android_app>.title img{
-    filter: invert(100%);
-    float: left;
-    width:90%;
-    height:67px;
-    display: block;
-    padding-left: 50px;
-    padding-top: 17px;
-    transition:0.4s;
+
 }
 
-.android_app>.title img:hover{
-    filter:invert(20%);
-}
-.footer{
-    min-height: 140px;
-    background-color: #121B2C;
-}
-.footer>.wrapper>.left{
-    min-height: 100px;
-    width: 60%;
-    float: left;
-}
-.footer>.wrapper>.left>.top{
-    min-height: 20px;
-}
-.footer>.wrapper>.left>.top ul{
-    padding-top: 38px;
-}
-.footer>.wrapper>.left>.top ul li{
-    padding: 0 3%;
-    list-style: none;
-    float: left;
-    border-right:1px solid white;
+.ad{
+
+    min-height: 350px;
+
+    background-color: #040811;
+
     
+
 }
-.footer>.wrapper>.left>.top ul:last-child li{
-    border-right: none;
-}
-.footer>.wrapper>.left>.top ul li a{
-    color: white;
-    text-decoration: none;
-    font-family: 'Roboto',sans-serif;
-    font-size: 13px;
-    transition: 0.3s;
-    
-}
-.footer>.wrapper>.left>.top ul li:hover a{
-    color: #0F76B3;
-}
-.footer>.wrapper>.left>.bottom p{
-    color: white;
-    text-decoration: none;
-    font-family: 'Roboto',sans-serif;
-    font-size: 13px;
-    margin-top: 27px;
+
+.details_panel{
+
+    min-height: 200px;
+
+    padding-top: 70px;
+
+    width:27%;
+
     float:left;
-    padding-left: 25px;
+
 }
-.footer>.wrapper>.right{
-    min-height: 100px;
-    width: 37%;
-    float:right;
-    padding-top: 18px;
-    padding-right: 30px;
-    
-}
-.footer>.wrapper>.right>.symbianlogo img{
-    float: left;
-    width: 52%;
-    height: 110px;
-}
-.footer>.wrapper>.right>.oceanlogo img{
-    float: right;
-    width: 45%;
-    height: 110px;
-}
-.footer p{
+
+.details_panel h2{
+
+    font-family: 'Montserrat', sans-serif;
+
     color: white;
+
+    font-size: 27px;
+
     float: left;
+
+    padding-right: 10px;
+
+}
+
+.details_panel h1{
+
+    font-family: 'Roboto', sans-serif;
+
+    color: #0075B9;
+
+    font-size: 27px;
+
+    float: left;
+
+    padding-right: 20px;
+
+    margin-bottom: 30px;
+
+}
+
+.details_panel p {
+
+    font-family: 'Montserrat', sans-serif;
+
+    width:70%;
+
+    color: white;
+
+    font-size: 15px;
+
+    
+
+}
+
+.feedback{
+
+    min-height:200px;
+
+    margin-top: 50px;
+
+    width: 33%;
+
+    float:left;
+
+}
+
+.speech_bubble{
+
+    float:left;
+
+    width: 100%;
+
+    min-height: 230px;
+
+    background-image: url(bubble.png);
+
+    background-position:center;
+
+    background-size: 400px;
+
+    margin-left: 10px;
+
+    padding-top: 0px;
+
+    padding-left: 25px;
+
+}
+
+.num{
+
+    float:right;
+
+}
+
+.speech_bubble h2{
+
+    font-family: 'Montserrat', sans-serif;
+
+    color: white;
+
+    font-size: 23px;
+
+    float: left;
+
+    padding-right: 10px;
+
+    padding-top: 35px;
+
+}
+
+.speech_bubble h1{
+
+    font-family: 'Roboto', sans-serif;
+
+    color: #0075B9;
+
+    font-size: 23px;
+
+    float: left;
+
+    padding-top: 35px;
+
+}
+
+.speech_bubble p{
+
+    font-family: 'Montserrat', sans-serif;
+
+    width:90%;
+
+    color: white;
+
+    font-size: 14px;
+
+    float:left;
+
+    padding-top: 20px;
+
+}
+
+.feedbackby h1{
+
+    font-family: 'Montserrat', sans-serif;
+
+    color: white;
+
+    font-weight: bold;
+
+    font-size: 15px;
+
+    padding-left: 40px;
+
+}
+
+.feedbackby h2{
+
+    font-family: 'Montserrat', sans-serif;
+
+    color: white;
+
+    font-weight: 400;
+
+    font-size: 14px;
+
+    padding-left: 40px;
+
+}
+
+.android_app{
+
+    min-height: 130px;
+
+    width:30%;
+
+    float:left;
+
+    margin-top:50px;
+
+    margin-left: 60px;
+
+}
+
+.android_app>.image{
+
+    background-image: none;
+
+    float: left;
+
+    width:30%;
+
+    min-height:130px;
+
+}
+
+.android_app>.title{
+
+    width: 69%;
+
+    float: left;
+
+}
+
+.android_app>.title h3{
+
+    font-family: 'Montserrat', sans-serif;
+
+    color: white;
+
+    font-size: 20px;
+
+    font-weight: 400;
+
+    float:left;
+
+    padding-left: 50px;
+
+    padding-top: 15px;
+
+}
+
+.android_app>.title{
+
+   min-height: 130px;
+
+    width:69%;
+
+    float: left;
+
+}
+
+.android_app>.title h1{
+
+    font-family: 'Montserrat', sans-serif;
+
+    color: #0B6AA6;
+
+    font-size: 25px;
+
+    font-weight: 700;
+
+    float:left;
+
+    padding-left: 50px;
+
+    
+
+}
+
+.android_app>.title>.img{
+
+    width: 100%;
+
+    float: left;
+
+
+}
+
+.android_app>.title img{
+
+    filter: invert(100%);
+
+    float: left;
+
+    width:90%;
+
+    height:67px;
+
+    display: block;
+
+    padding-left: 50px;
+
+    padding-top: 17px;
+
+    transition:0.4s;
+
+}
+
+
+
+.android_app>.title img:hover{
+
+    filter:invert(20%);
+
+}
+
+.footer{
+
+    min-height: 140px;
+
+    background-color: #121B2C;
+
+}
+
+.footer>.wrapper>.left{
+
+    min-height: 100px;
+
+    width: 58%;
+
+    float: left;
+
+}
+
+.footer>.wrapper>.left>.top{
+
+    min-height: 20px;
+
+}
+
+.footer>.wrapper>.left>.top ul{
+
+    padding-top: 38px;
+
+}
+
+.footer>.wrapper>.left>.top ul li{
+
+    padding: 0 3%;
+
+    list-style: none;
+
+    float: left;
+
+    border-right:1px solid white;
+
+    
+
+}
+
+.footer>.wrapper>.left>.top ul:last-child li{
+
+    border-right: none;
+
+}
+
+.footer>.wrapper>.left>.top ul li a{
+
+    color: white;
+
+    text-decoration: none;
+
+    font-family: 'Roboto',sans-serif;
+
+    font-size: 13px;
+
+    transition: 0.3s;
+
+    
+
+}
+
+.footer>.wrapper>.left>.top ul li:hover a{
+
+    color: #0F76B3;
+
+}
+
+.footer>.wrapper>.left>.bottom p{
+
+    color: white;
+
+    text-decoration: none;
+
+    font-family: 'Roboto',sans-serif;
+
+    font-size: 13px;
+
+    margin-top: 27px;
+
+    float:left;
+
+    padding-left: 25px;
+
+}
+
+.footer>.wrapper>.right{
+
+    min-height: 100px;
+
+    width: 40%;
+
+    float:left;
+
+    padding-top: 18px;
+
+    
+
+    
+
+}
+
+.footer>.wrapper>.right>.symbianlogo img{
+
+    float: left;
+
+    width: 52%;
+
+    height: 110px;
+    
+
+}
+
+.footer>.wrapper>.right>.oceanlogo img{
+
+    float: right;
+
+    width: 44%;
+
+    height: 110px;
+
+}
+
+.footer p{
+
+    color: white;
+
+    float: left;
+
 }
